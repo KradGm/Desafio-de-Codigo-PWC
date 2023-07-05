@@ -24,4 +24,4 @@ for (int i = 0; i < chars.Length; i++)
 
 resultado = string.Join("", charList);
 Console.WriteLine(resultado);
-Console.ReadLine();
+

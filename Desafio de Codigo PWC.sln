@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio de Codigo PWC", "Desafio de Codigo PWC\Desafio de Codigo PWC.csproj", "{857E280A-3E13-480E-9CC5-3D443E3A2F9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio3", "Desafio3\Desafio3.csproj", "{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{857E280A-3E13-480E-9CC5-3D443E3A2F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857E280A-3E13-480E-9CC5-3D443E3A2F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857E280A-3E13-480E-9CC5-3D443E3A2F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
