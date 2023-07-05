@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        string fraseAlvo = "babad";
+        Console.WriteLine("Digite qual sera a palavra a ser verificada: ");
+        string fraseAlvo = Console.ReadLine();
         var palindromos = EncontrarPalindromos(fraseAlvo);
 
         Console.WriteLine("Palíndromos encontrados:");
@@ -17,14 +18,14 @@ class Program
         }
     }
 
-    static bool EhPalindromo(string palavra)
+    static bool EhPalindromo(string palavras)
     {
         int inicio = 0;
-        int fim = palavra.Length - 1;
+        int fim = palavras.Length - 1;
 
         while (inicio < fim)
         {
-            if (palavra[inicio] != palavra[fim])
+            if (palavras[inicio] != palavras[fim])
             {
                 return false;
             }
@@ -44,7 +45,7 @@ class Program
         {
             for (int j = i + 1; j <= frase.Length; j++)
             {
-                string subString = frase.Substring(i, j - i);
+                string subString = frase[i..j];
 
                 if (EhPalindromo(subString))
                 {

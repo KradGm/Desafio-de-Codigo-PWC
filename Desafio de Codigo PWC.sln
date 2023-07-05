@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio de Codigo PWC", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio3", "Desafio3\Desafio3.csproj", "{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio 4", "Desafio 4\Desafio 4.csproj", "{D11D0A7A-6EC5-44DB-B385-BFFEFC3FFD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio 5", "Desafio 5\Desafio 5.csproj", "{7EE54CDF-789F-487E-BD00-AAACB41C6406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7153C67D-B7E3-47C0-8792-F0D45BC9FFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11D0A7A-6EC5-44DB-B385-BFFEFC3FFD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11D0A7A-6EC5-44DB-B385-BFFEFC3FFD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11D0A7A-6EC5-44DB-B385-BFFEFC3FFD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11D0A7A-6EC5-44DB-B385-BFFEFC3FFD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE54CDF-789F-487E-BD00-AAACB41C6406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE54CDF-789F-487E-BD00-AAACB41C6406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE54CDF-789F-487E-BD00-AAACB41C6406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE54CDF-789F-487E-BD00-AAACB41C6406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
