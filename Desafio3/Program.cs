@@ -1,14 +1,25 @@
-﻿//DESAFIO 3:
-
+﻿
 class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Desafio 3: Encontrando partes palindromas em uma frase");
+
+        string fraseTeste = "babad";
+        var palindromo2 = EncontrarPalindromos(fraseTeste);
+        Console.WriteLine("Palíndromos encontrados na palavra babad: ");
+        string resultado = Palindromos(palindromo2);
+
         Console.WriteLine("Digite qual sera a palavra a ser verificada: ");
         string fraseAlvo = Console.ReadLine();
         var palindromos = EncontrarPalindromos(fraseAlvo);
 
-        Console.WriteLine("Palíndromos encontrados:");
+        Console.WriteLine("Palíndromos encontrados na sua frase de escolha: ");
+        string resultado2 = Palindromos(palindromos);
+        Console.ReadLine();
+    }
+    static string Palindromos(string[] palindromos)
+    {
         foreach (var palindromo in palindromos)
         {
             if (palindromo.Count() > 1)
@@ -16,8 +27,8 @@ class Program
                 Console.WriteLine(palindromo);
             }
         }
+        return null;
     }
-
     static bool EhPalindromo(string palavras)
     {
         int inicio = 0;

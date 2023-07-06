@@ -1,16 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-//DESAFIO 1:
+﻿Console.WriteLine("Desafio 1: Invertendo a ordem de uma frase");
 string texto1 = "Hello, World! OpenAi is amazing.";
 Console.WriteLine("Esse é o texto que sera invertido: " + texto1);
 
 string[] texto1Array = texto1.Split(" ");
 
-Console.WriteLine(texto1Array[4] + " " + texto1Array[3] + " " + texto1Array[2] + " " + texto1Array[1] + " " + texto1Array[0]);
+Console.WriteLine("Esse é o texto invertido: " + texto1Array[4] + " " + texto1Array[3] + " " + texto1Array[2] + " " + texto1Array[1] + " " + texto1Array[0]);
 
-//DESAFIO 2:
+
+Console.WriteLine("Desafio 2: Retirando caracteres repetidos");
 string textoDuplicado = "Hello, World!";
 string resultado;
-
 char[] chars = textoDuplicado.ToCharArray();
 List<char> charList = new List<char>();
 
@@ -23,5 +22,6 @@ for (int i = 0; i < chars.Length; i++)
 }
 
 resultado = string.Join("", charList);
-Console.WriteLine(resultado);
-
+Console.WriteLine("Texto original: " + textoDuplicado);
+Console.WriteLine("Texto apos retirar as letras repetidas: " + resultado);
+Console.ReadLine();

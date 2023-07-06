@@ -6,6 +6,7 @@ class Program
 {
     static void Main(String[] args)
     {
+        Console.WriteLine("Desafio 4: Formatando os textos para sua forma correta");
         string phrase = "hello. how are you? i'm fine, thank you";
         Console.WriteLine("Esta é a frase inicial: " + phrase);
         string result = TransformFirstLetter(phrase);

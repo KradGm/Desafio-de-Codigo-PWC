@@ -12,6 +12,7 @@ class Program
 
     static void Main(string[] args)
     {
+        Console.WriteLine("Desafio 5: Encontrando os anagramas palindromos em uma frase");
         string normalString = "racecar";
         string reversedString = ReverseString(normalString);
         Console.WriteLine("Frase invertida: " + reversedString);
