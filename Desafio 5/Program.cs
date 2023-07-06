@@ -12,20 +12,32 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine("Digite uma frase:");
-        string input = Console.ReadLine();
-
-        string reversedString = ReverseString(input);
+        string normalString = "racecar";
+        string reversedString = ReverseString(normalString);
         Console.WriteLine("Frase invertida: " + reversedString);
 
-        if (input.Replace(" ", "").ToLower() == reversedString.Replace(" ", "").ToLower())
+        Console.WriteLine(verifyPalindrome(normalString, reversedString));
+
+
+        Console.WriteLine("Digite uma frase:");
+        string input = Console.ReadLine();
+        string reversedInput = ReverseString(input);
+        Console.WriteLine("Frase invertida: " + reversedInput);
+        Console.WriteLine(verifyPalindrome(input, reversedInput));
+    }
+    static bool verifyPalindrome(string input, string reversedInput)
+    {
+        bool result = false;
+        if (input.Replace(" ", "").ToLower() == reversedInput.Replace(" ", "").ToLower())
         {
-            Console.WriteLine("True");
+            result = true;
+
         }
         else
         {
-            Console.WriteLine("False");
+            result = false;
         }
+        return result;
     }
 
 }
